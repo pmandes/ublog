@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="ublog_post">
+	<div class="ublog_post_content">{{ post.content }}</div>
+	<div class="ublog_post_date">{{ post.pub_date }}</div>
+	<div class="ublog_post_author">{{ post.author }}</div>
+</div>
+{% endblock%}

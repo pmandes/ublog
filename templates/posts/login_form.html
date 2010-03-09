@@ -1,0 +1,15 @@
+
+<div style="float: right; text-align: right;">
+  <form action="/login/" method="post"> 
+    {% csrf_token %}
+
+    <label for="username">Nazwa użytkownika:</label> 
+    <input type="text" name="username" value="" id="username"> 
+    <br/>
+    <label for="password">Hasło:</label> 
+    <input type="password" name="password" value="" id="password">
+    <br/>
+    <input type="submit" value="Zaloguj" /> 
+  </form> 
+</div>
+<div style="cb"></div>
